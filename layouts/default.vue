@@ -19,7 +19,7 @@
             <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
           </svg>
         </div>
-        <div tabindex="0"
+        <div tabindex="0" style="position: absolute; z-index: 9999;"
              class="dropdown-content bg-base-200 text-base-content rounded-box top-px h-[28.6rem] max-h-[calc(100vh-10rem)] w-56 overflow-y-auto border border-white/5 shadow-2xl outline outline-1 outline-black/5 mt-16">
           <div class="grid grid-cols-1 gap-3 p-3">
             <button @click="colorMode.preference = theme" v-for="theme in themes" :key="theme"
